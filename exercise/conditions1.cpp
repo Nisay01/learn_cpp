@@ -15,35 +15,34 @@ point > 90 => grade A
 int main()
 
 {
-    std::string point;
+    int point;
     std::cout << "Your Point: ";
-    std::cin >> point >> ;
-    if (point > 50)
+    std::cin >> point;
+
+    if (point >= 90)
     {
-        std::cout << "Your Grade E " << std::endl;
-    }
-    else if (point > 60)
-    {
-        std::cout << "Your Grade D " << std::endl;
-        git
-    }
-    else if (Point > 70)
-    {
-        std::cout << "Your Grade C" << std::endl;
+        std::cout << "Your Grade A " << std::endl;
     }
     else if (point > 80)
     {
-        std::cout << "Your Grade B" << std::endl;
+        std::cout << "Your Grade B " << std::endl;
     }
-    else if (point > 90)
+    else if (point > 70)
     {
-        std::cout << "Your Grade A" << std::endl;
+        std::cout << "Your Grade C" << std::endl;
+    }
+    else if (point > 60)
+    {
+        std::cout << "Your Grade D" << std::endl;
+    }
+    else if (point > 50)
+    {
+        std::cout << "Your Grade E" << std::endl;
     }
     else
-        (point < 50)
-        {
-            std::cout << "Your Failed​";
-        }
+    {
+        std::cout << "Your Failed​";
+    }
 
     return 0;
 }
