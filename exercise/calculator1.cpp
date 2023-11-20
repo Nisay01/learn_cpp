@@ -21,24 +21,36 @@ int main()
         {
             std::cout << "Enter first Number: ";
             std::cin >> firstnumber;
+            std::cout << "Enter secound Number: ";
+            std::cin >> secoundnumber;
+            std::cout << "Answer is: ";
             std::cout << firstnumber + secoundnumber << std::endl;
         }
         else if (choice == 2)
         {
             std::cout << "Enter first Number: ";
             std::cin >> firstnumber;
+            std::cout << "Enter secound Number: ";
+            std::cin >> secoundnumber;
+            std::cout << "Answer is: ";
             std::cout << firstnumber - secoundnumber << std::endl;
         }
         else if (choice == 3)
         {
             std::cout << "Enter first Number: ";
             std::cin >> firstnumber;
+            std::cout << "Enter secound Number: ";
+            std::cin >> secoundnumber;
+            std::cout << "Answer is: ";
             std::cout << firstnumber * secoundnumber << std::endl;
         }
         else if (choice == 4)
         {
             std::cout << "Enter first Number: ";
             std::cin >> firstnumber;
+            std::cout << "Enter secound Number: ";
+            std::cin >> secoundnumber;
+            std::cout << "Answer is: ";
             std::cout << firstnumber / secoundnumber << std::endl;
         }
     }
